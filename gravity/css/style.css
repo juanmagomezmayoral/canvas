@@ -1,0 +1,33 @@
+
+:root{
+    --meydisDarkGray: #4C4C4C;
+    --meydisLightGray: #BFBFBF;
+    --meydisOrange: #FF9E27;
+    --meydisDarkBlue: #0092FF;
+    --meydisLightBlue: #7EC6F2;
+    --meydisWhite: #EEEEEE;
+}
+
+#gravityField {
+    top: 0;
+    left: 0;
+    position: absolute;
+}  
+
+#gravityField  {
+    background-color: var(--meydisLightGray);
+}
+
+#textContainer {
+    float: left;
+    width: 100%;
+    height:60px;
+    bottom:0;
+    background: var(--meydisDarkGray);
+    position: absolute;
+    color: var(--meydisWhite);
+    padding: 5px;
+}
+
+body {margin:0}
+

@@ -1,0 +1,65 @@
+
+:root{
+    --meydisDarkGray: #4C4C4C;
+    --meydisLightGray: #BFBFBF;
+    --meydisOrange: #FF9E27;
+    --meydisDarkBlue: #0092FF;
+    --meydisDarkerBlue: #0076d1;    
+    --meydisLightBlue: #7EC6F2;
+    --meydisWhite: #EEEEEE;
+}
+
+#canvas  {
+    top: 0;
+    left: 0;
+    position: absolute;      
+    background-color: var(--meydisWhite);
+    /*border:1px solid var(--meydisLightGray);
+    width: 80%;
+    height: 80%;
+    margin: 1rem auto;
+    display: block;*/
+}
+
+.footer {
+    float: left;
+    height:30px;
+    bottom:0;  
+    position: absolute;
+}
+
+
+#textContainer {
+    float: left;
+    height:30px;
+    width:200px;
+    background: var(--meydisWhite);
+
+    color: var(--meydisDarkBlue);
+    padding: 5px;
+}
+
+html {background-color:var(--meydisDarkGray);}
+body {margin:0}
+
+.btn {
+    background-color: var(--meydisDarkBlue); 
+    border: 1px solid var(--meydisDarkerBlue);
+    color: white;
+    padding: 11px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 14px;
+}
+.btn:hover {
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: var(--meydisLightBlue); 
+    border: 1px solid var(--meydisDarkBlue);
+    color: var(--meydisDarkGray);
+}
+.btn:focus {
+    outline: none;
+    background-color: var(--meydisOrange); 
+}

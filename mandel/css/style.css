@@ -1,0 +1,55 @@
+
+:root{
+    --meydisDarkGray: #4C4C4C;
+    --meydisLightGray: #BFBFBF;
+    --meydisOrange: #FF9E27;
+    --meydisDarkBlue: #0092FF;
+    --meydisLightBlue: #7EC6F2;
+    --meydisWhite: #EEEEEE;
+}
+
+#container, #orbits {
+    top: 0;
+    left: 0;
+    position: absolute;  
+}  
+#parameters, #parameters_orbits {
+    top: 0;
+    right: 0;
+    position: absolute;    
+}  
+#container, #parameters  {
+    background-color: var(--meydisLightGray);
+}
+
+#orbits, #parameters_orbits {
+    background: transparent;
+}
+
+#coordinatesJL {
+    float: right;
+    background: var(--meydisDarkGray);
+    position: relative;
+    color: var(--meydisWhite);
+    padding: 5px;
+}
+#coordinatesMB {
+    float: left;
+    background: var(--meydisDarkGray);
+    position: relative;
+    color: var(--meydisWhite);
+    padding: 5px;
+}
+#tester {
+    bottom: 2;
+    left: 2;
+    position: absolute;
+    background: transparent;
+}
+#btn1 {
+    bottom: 100;
+    right: 100;
+    position: absolute;
+}
+body {margin:0}
+
